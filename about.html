@@ -5,37 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Drippables</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" style="margin-left: 15px;">
-              <img src="https://www.whplibrary.org/wp-content/uploads/2020/06/happy-water-droplet-vector-files_800.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-            </a>
-          <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="shop.html">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-           </form>
-          </div>
-        </div>
-      </nav>
-          <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5">
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+        <img
+          src="Drippables-logo2.png"
+          height="35"
+          width="30"
+          alt="Drippables Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          aria-expanded="false"
+        >
+          <img
+            src="account-icon.jfif"
+            class="rounded-circle"
+            height="20"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">My profile</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Settings</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+      <h1 class="text-center text-color.#3399ff">Get to Know Us<h1>
+</style>
+</head>
+<body>
+<container-fluid>
+<h3>We are the number 1 sponsor of the NBA. With many prominate athletes proudly repping our brand. Reaching the younger audiance is one of our main goals. Starting from giving free samples to athletes, we were able to grow quickly straight out of Jackson, Tennessee.</h3>
+</container-fluid>
+<div class="ratio ratio-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/d9e_bORIp48"
+    title="YouTube video"
+    allowfullscreen
+  ></iframe>
+</div>
+<div></div>
   <!-- Footer -->
   <footer class="text-center text-white" style="background-color: #3399ff">
     <!-- Grid container -->
